@@ -18,4 +18,4 @@ InstrumentFamilies.prototype.publishFamilyDetail = function (selectedIndex) {
   PubSub.publish('InstrumentFamilies:selected-family-ready', selectedFamily)
 };
 
-module.exports = InstrumentFamilies;
+export default InstrumentFamilies;
